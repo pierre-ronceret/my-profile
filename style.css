@@ -1,0 +1,150 @@
+/* Colors and fonts */
+body{
+	background: rgb(245, 245, 245);
+	color: rgb(30, 58, 95);
+	font-family: Lato, sans-serif;
+	font-size: 17px;
+	font-weight: Lighter;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header styles */
+h1, h2, h3 {
+	font-family: Lato, sans-serif;
+	color: rgb(30, 58, 95);
+	margin-bottom: 15px;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 32px;
+}
+
+h2{
+	font-weight: 400;
+	font-size: 24px;
+}
+
+/* Link styles*/
+a{
+	text-decoration: none;
+	color: rgb(30, 58, 95);
+	font-weight: 600;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	color: rgb(64, 93, 124);
+}
+
+/* Button Style */
+.button{
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: rgb(30, 58, 95);
+	color: whitesmoke;
+	font-weight: 600;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover{
+	background-color: rgb(64, 93, 124);
+}
+
+/* Container */
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgb(250, 255, 255);
+	border-radius: 8px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive container adjustments */
+@media (max-width: 960px){
+	.container{
+		max-width: 700px;
+	}
+}
+
+@media (max-width: 720px){
+	.container{
+		max-width: 500px;
+	}
+}
+
+@media (max-width: 540px){
+	.container{
+		max-width: 300px;
+	}
+}
+
+/* Profile Image Styles */
+#profile-picture{
+	width: 150px;
+	height: 150px;
+}
+
+/*Class to make the image circular */
+.img-circle{
+	border-radius: 50%;
+}
+
+/* Class to add a shadow to the image */
+.info-box{
+	margin-top: 20px;
+	padding: 15px;
+	text-align: center;
+	color: rgb(30, 58, 95);
+}
+
+/* Info box styles*/
+.info-box{
+	margin-top: 20px;
+	padding: 10px 15px 20px 15px;
+	text-align: center;
+	color: rgb(30, 58, 95);
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h2{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.info-box p{
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+/* Social media links */
+.list-inline{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-top: 20px;
+}
+
+.social-links a{
+	font-size: 24px;
+	color: rgb(30, 58, 95);
+	transition: color 0.3s ease;
+}
+
+.social-links a:hover{
+	color: rgb(64, 93, 124);
+}
+
+/* Adding a subtle border to profile-box for extra styling */
+.profile-box{
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	margin-bottom: 15px;
+}
+
